@@ -3,8 +3,8 @@ import os
 import os.path
 
 tinify.key = "your AppKey" # AppKey
-fromFilePath = "/Users/tangjr/Desktop/test1" # 源路径
-toFilePath = "/Users/tangjr/Desktop/test2" # 输出路径
+fromFilePath = "/Users/tangjr/Desktop/test1" # sourcePath
+toFilePath = "/Users/tangjr/Desktop/test2" # targetPath
 
 for root, dirs, files in os.walk(fromFilePath):
 	for name in files:
